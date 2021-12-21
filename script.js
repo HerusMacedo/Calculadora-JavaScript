@@ -29,7 +29,7 @@ function calcular () {
 
     if(resultado){
 
-document.getElementById('resultado').innerHTML = eval(resultado);
+document.getElementById('resultado').innerHTML = eval(resultado).toFixed(4);
 
 
     }else{
